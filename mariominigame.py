@@ -23,7 +23,7 @@ import sys
 ## Read the file:
 try:
 
-    mazeFile = open('InputData_3.txt')
+    mazeFile = open('samplefile.txt')
 
     mazeWidth = int(mazeFile.readline())
     print(mazeWidth)
